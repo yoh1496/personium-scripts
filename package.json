@@ -2,6 +2,9 @@
   "name": "personium-scripts",
   "version": "1.0.0",
   "description": "Scripts for managing personium",
+  "bin": {
+    "personium-scripts": "index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/yoh1496/personium-scripts/issues"
   },
-  "homepage": "https://github.com/yoh1496/personium-scripts#readme"
+  "homepage": "https://github.com/yoh1496/personium-scripts#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  }
 }
